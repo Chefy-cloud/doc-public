@@ -15,17 +15,20 @@ To integrate your device should support:
 Cloud service expects your device to publish telemetry and faults and subscribe to configuration commands.
 Message payloads are in JSON format as defined in the https://tools.ietf.org/html/rfc7159[RFC 7159].
 
-[cols="1,1"]
+[cols="1,1,1"]
 |===
 
 |Appliance telemetry
 |`$devices/<device ID>/state`
+|https://github.com/Chefy-cloud/spec-proposal/raw/main/telemetry-message.schema.json[Message Schema]
 
 |Appliance faults
 |`$devices/<device ID>/events`
+|To be defined
 
 |Appliance configuration commands
 |`$devices/<device ID>/config`
+|https://github.com/Chefy-cloud/spec-proposal/raw/main/control-message.schema.json[Message Schema]
 
 |===
 
