@@ -39,3 +39,9 @@ MQTT connection parameters:
 * Broker host name: `mqtt.cloud.yandex.net`
 * TCP port: 8883
 * Security: TLSv1.2
+
+== Authentication
+
+MQTT connection is authenticated using X.509 certificates.
+To authorize your device you should generate a certificate and make it available for Chefy cloud service.
+The details of interaction with Chefy cloud service are to be defined.
