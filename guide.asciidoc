@@ -45,3 +45,15 @@ MQTT connection parameters:
 MQTT connection is authenticated using X.509 certificates.
 To authorize your device you should generate a certificate and make it available for Chefy cloud service.
 The details of interaction with Chefy cloud service are to be defined.
+
+== Device provisioning through mobile app
+
+Provisioning is a process of onboarding your device to Wi-Fi network and associating your device with a Chefy user account.
+
+The recomended modern way of Wi-Fi onboarding is https://www.wi-fi.org/download.php?file=/sites/default/files/private/Wi-Fi_Easy_Connect_Specification_v3.0.pdf[Wi-Fi Easy Connect].
+
+For case where Wi-Fi Easy Connect is not supported, Chefy mobile app provides a mechanism for end users to supply Wi-Fi credentials to your device over Bluetooth Low Energy (BLE).
+Mobile app uses Generic Attribute Profile to configure Wi-Fi credentials on your device.
+
+Mobile app will not transmit Wi-Fi credentials over unencrypted channel.
+To ensure security of Wi-Fi credentials transmission, your device should support Bluetooth Low Energy Security Mode 1, levels 2 through 4.
