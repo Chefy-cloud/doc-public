@@ -14,6 +14,7 @@ To integrate your device should support:
 
 Cloud service expects your device to publish telemetry and faults and subscribe to configuration commands.
 Message payloads are in JSON format as defined in the https://tools.ietf.org/html/rfc7159[RFC 7159].
+Payload contents for different topics are specified with https://json-schema.org[JSON Schema].
 
 [cols="1,1,1"]
 |===
