@@ -33,6 +33,10 @@ Payload contents for different topics are specified with https://json-schema.org
 
 |===
 
+Each message contains a UTC timestamp in https://tools.ietf.org/html/rfc3339[RFC 3339] format.
+Timestamps in configuration commands are used to discard out-of-order messages.
+Timestamps in telemetry and faults are used to present data to end users.
+
 == Connection parameters
 
 MQTT connection parameters:
