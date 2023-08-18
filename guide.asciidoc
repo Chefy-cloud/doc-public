@@ -55,7 +55,7 @@ The details of interaction with Chefy cloud service are to be defined.
 
 Provisioning is a process of onboarding your device to Wi-Fi network and associating your device with a Chefy user account.
 
-The recomended modern way of Wi-Fi onboarding is https://www.wi-fi.org/download.php?file=/sites/default/files/private/Wi-Fi_Easy_Connect_Specification_v3.0.pdf[Wi-Fi Easy Connect].
+The recomended modern way of Wi-Fi onboarding is https://www.wi-fi.org/discover-wi-fi/wi-fi-easy-connect[Wi-Fi Easy Connect].
 
 For case where Wi-Fi Easy Connect is not supported, Chefy mobile app provides a mechanism for end users to supply Wi-Fi credentials to your device over Bluetooth Low Energy (BLE).
 Mobile app uses Generic Attribute Profile to configure Wi-Fi credentials on your device.
