@@ -1,6 +1,6 @@
 = Appliance integration guide
 
-== Prequisites
+== Prerequisites
 
 Chefy uses MQTT to connect user's smartphone with your appliance.
 To integrate your device should support:
